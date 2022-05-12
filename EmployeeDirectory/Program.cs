@@ -5,13 +5,16 @@ namespace EmployeeDirectory
 {
     internal class Program
     {
+        //Instanseierar en payroll och ett ui
+        //Scoopade till hela klassen
         static PayRoll payRoll = new PayRoll();
         static IUI ui = new ConsoleUI();
+
+        //Programmets startpunkt
+        //Får bara finnas EN!
         static void Main(string[] args)
         {
-
-           
-
+            //Skapar lite Dummy data
             SeedData();
 
             do

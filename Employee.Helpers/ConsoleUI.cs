@@ -20,6 +20,8 @@ namespace Employee.Helpers
 
     }
 
+
+    //Implementation som vi kan använda oss av när vi testar.
     public class MockUI : IUI
     {
         public static string SetInput { get; set; } = "Kalle";
