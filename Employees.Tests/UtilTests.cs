@@ -12,7 +12,7 @@ namespace Employees.Tests
     [TestClass]
     public class UtilTests
     {
-        private Mock<IUI> ui;
+        private Mock<IUI> ui = null!;
 
         [TestInitialize]
         public void Init()
