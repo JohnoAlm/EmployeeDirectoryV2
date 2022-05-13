@@ -18,6 +18,7 @@ namespace Employees.Tests
 
             //Assert
             Assert.AreEqual(EmployeeDirectory.SalaryLevel.Junior, actual);
+           
         }
     }
 }

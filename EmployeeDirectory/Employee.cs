@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 [assembly:InternalsVisibleTo("Employees.Tests")]
+[assembly:InternalsVisibleTo("Employees.XUnitTests")]
 namespace EmployeeDirectory
 {
     internal class Employee
