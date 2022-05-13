@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeDirectory
 {
-    internal class PayRoll
+    internal class PayRoll : IPayRoll
     {
         private List<Employee> payRoll;
 
@@ -19,14 +19,14 @@ namespace EmployeeDirectory
         {
             Employee employee = new Employee(name, salary);
             payRoll.Add(employee);
-        } 
-        
+        }
+
         public void AddEmployee(Employee employee)
         {
             payRoll.Add(employee);
         }
 
-        internal List<Employee> GetEmployees()
+        public List<Employee> GetEmployees()
         {
             return payRoll.ToList();
         }
