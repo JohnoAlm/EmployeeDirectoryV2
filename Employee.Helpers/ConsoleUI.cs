@@ -18,6 +18,11 @@ namespace Employee.Helpers
             Console.WriteLine(message);
         }
 
+        public  int Add(int x, int y)
+        {
+            return x + y + 100;
+        }
+
     }
 
 
@@ -35,5 +40,7 @@ namespace Employee.Helpers
         {
             
         }
+
+
     }
 }

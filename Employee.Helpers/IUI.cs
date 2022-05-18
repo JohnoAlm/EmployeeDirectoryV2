@@ -6,5 +6,10 @@
     {
         string? GetInput();
         void Print(string message);
+
+        public  int Add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }

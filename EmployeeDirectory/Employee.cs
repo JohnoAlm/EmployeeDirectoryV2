@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 [assembly:InternalsVisibleTo("Employees.XUnitTests")]
 namespace EmployeeDirectory
 {
-    internal class Employee
+    internal class Employee 
     {
         public string Name { get; }
         public uint Salary { get; }
